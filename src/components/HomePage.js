@@ -13,40 +13,8 @@ export class HomePage extends React.Component {
         <Header />
         <BackgroundVideo />
       <hr/>
-        <div class="foo">
-          <span class="letter" data-letter="D">
-            D
-          </span>
-          <span class="letter" data-letter="E">
-            E
-          </span>
-          <span class="letter" data-letter="V">
-            V
-          </span>
-          <span class="letter" data-letter="E">
-            E
-          </span>
-          <span class="letter" data-letter="L">
-            L
-          </span>
-          <span class="letter" data-letter="O">
-            O
-          </span>
-          <span class="letter" data-letter="P">
-            P
-          </span>
-          <span class="letter" data-letter="M">
-            M
-          </span>
-          <span class="letter" data-letter="E">
-            E
-          </span>
-          <span class="letter" data-letter="N">
-            N
-          </span>
-          <span class="letter" data-letter="T">
-            T
-          </span>
+        <div class="foo letter">
+          <h1>DEVELOPMENT</h1>
         </div>
         <Button outline color="secondary" id="homepage-btn">
           <a href="https://www.youtube.com/channel/UCqOJs8JQyo2SuKWnn4HVreg?view_as=subscriber">

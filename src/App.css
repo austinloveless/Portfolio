@@ -425,19 +425,13 @@ input[type=submit]:hover {
 
 div.foo{
   width: 30%;
-  margin: 0 auto;
+  margin:  auto;
   text-align: center;
 }
 .letter{
-  display: inline-block;
   font-weight: 900;
   font-size: 40px;
-  margin: 0.2em;
-  position: relative;
-  color: Red;
-  transform-style: preserve-3d;
-  perspective: 400;
-  z-index: 1;
+
 }
 .letter:before, .letter:after{
   position:absolute;

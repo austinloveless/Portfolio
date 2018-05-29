@@ -18,13 +18,11 @@ export class About extends React.Component {
         <div class="row co-sm">
           <h3 class="float-center">About</h3>
           <p class="float-left">
-            I am a current part time Galvanize student soon to be full time on
-            June 4th. I will graduate as a full stack JavaScript Developer,
-            specifically the MERN stack on November 16. I already have JavaScript experience along with
-            React experience. Outside of coding I have several other passion projects, such as
-            Youtube, photography, cinematography and I enjoy doing various outdoor activies. I hope to land a job as a Software
-            Engineer upon my graduation in Novemeber. I enjoy the act of creating projects
-            along with enjoying the struggle of learning new things. Please contact me if you want to dicuss more about who I am.
+            I am currently a Full Time Student at Galavanize. I am set to graduate as a Full Stack JavaScript Developer, with strong emphasis in React, on Novemeber 16th 2018.
+            I have a bit of JavaScript experience and have build projects, this one, with frameworks such as React.
+            Outside of coding I have several other passion projects such as Youtube, Photography, Cinematography, and I enjoy doing various outdoor activies.
+            I am working hard to achieve my goal of becoming a Software Engineer upon graduating in Novemeber.
+             I enjoy the act of creating projects along with enjoying the struggle of learning new things. Please contact me if you want to dicuss more about who I am.
           </p><img src="/img/IMG_1388.JPG" class="smaller-img"  />
           <img src="/IMG_1614-2.jpg" class="smaller-img"  />
         </div>

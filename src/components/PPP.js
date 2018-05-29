@@ -49,7 +49,7 @@ export class PPP extends React.Component {
           <div class="row">
             <div class="col">
               I have several passions some on the coding side, and others
-              on more of a personal side project side. As far as coding goes I really
+              on more of a personal side. As far as coding goes I really
               enjoy that struggle of figuring logically how to make things work
               like you expect. I like thinking through whats wrong and making it work.
               I am starting to become more creative and build more projects.
@@ -58,12 +58,11 @@ export class PPP extends React.Component {
               that relate to the things I am interested in.
             </div>
             <div class="col">
-              Now outside of coding I do tons of outdoor activies. If I could hike
-              as a job thats what I would do. I try to climb at least on mountain per week.
-              When time and money align I go on bigger trip or do more adrenaline based things.
-              In a week I am going white water rafting. In a month I am going skydiving again, and off roading
-              through the Rocky Mountain National Park. On top of coding and outdoor activies I do alot of
-              photography and cinematography. This is a new passion of mine, but it seems like its hear to stay.
+              Now outside of coding I tend to do an abundance of outdoor activies. If I could hike
+              as a job thats what I would do. I try to climb at least one mountain per week.
+              When time and money align I go on bigger trips or do more heavy adrenaline based things.
+              During my time at Galvanize I have many out door adrenaline trips planned such as rafting, skydiving, and bungjee jumping.
+              On top of this I recently discovered a new found passion for Photography and Cinematography. 
             </div>
           </div>
         </div>
