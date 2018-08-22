@@ -87,6 +87,11 @@ export class PPP extends React.Component {
                       Authentication I used Bcrypt, JWT, and localStorage. For
                       the Backend I used Node/Express and MongoDB.
                     </p>
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/warbler-client">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
@@ -110,6 +115,12 @@ export class PPP extends React.Component {
                         YelpCamp
                       </a>
                     </h5>
+                    <br />
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/yelpCamp">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
@@ -133,6 +144,12 @@ export class PPP extends React.Component {
                     <h5 className="col-sm-8">
                       <a href="https://g90-videos.firebaseapp.com/">Gvideos</a>
                     </h5>
+                    <br />
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/gvideos-client">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
@@ -151,6 +168,11 @@ export class PPP extends React.Component {
                       Decoupled App with Node/Express on the backend with
                       MongoDB. Front end React-Redux.
                     </p>
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/Redux-Todos-Frontend">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
@@ -168,6 +190,11 @@ export class PPP extends React.Component {
                       unread. As well as delete messages and create new messages
                       with posting to the API.
                     </p>
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/React-Inbox">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
@@ -186,6 +213,11 @@ export class PPP extends React.Component {
                       Built with Node/Express and EJS for server side rendering.
                       Stripe for payment processing.
                     </p>
+                    <h6 className="col-sm-8">
+                      <a href="https://github.com/austinloveless/Stripe-Payment-processing">
+                        Github
+                      </a>
+                    </h6>
                   </figcaption>
                 </figure>
               </div>
