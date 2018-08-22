@@ -1,10 +1,10 @@
 import React from "react";
 import { Button } from "reactstrap";
-import HideTheImage from './HideTheImage'
-import Footer from './Footer'
-import Header from './Header'
-import {BackgroundVideo} from './BackgroundVideo'
-import {Link} from 'react-router-dom'
+import HideTheImage from "./HideTheImage";
+import Footer from "./Footer";
+import Header from "./Header";
+import { BackgroundVideo } from "./BackgroundVideo";
+import { Link } from "react-router-dom";
 
 export class HomePage extends React.Component {
   render() {
@@ -12,11 +12,11 @@ export class HomePage extends React.Component {
       <div>
         <Header />
         <BackgroundVideo />
-      <hr/>
+        <hr />
         <div class="foo letter">
           <h1>DEVELOPMENT</h1>
         </div>
-        <Button outline color="secondary" id="homepage-btn">
+        {/* <Button outline color="secondary" id="homepage-btn">
           <a href="https://www.youtube.com/channel/UCqOJs8JQyo2SuKWnn4HVreg?view_as=subscriber">
           <Link to="#">
           </Link>
@@ -38,21 +38,19 @@ export class HomePage extends React.Component {
               class="fa fa-user"
               aria-hidden="true"
             /></p>
-            </Link>
-       <br />
+            </Link> */}
+        <br />
         <HideTheImage />
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
         <Footer />
-
       </div>
     );
   }

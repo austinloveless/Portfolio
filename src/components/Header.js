@@ -12,10 +12,10 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import { Link } from 'react-router-dom'
-import BackgroundVideo from './BackgroundVideo'
+import { Link } from "react-router-dom";
+import BackgroundVideo from "./BackgroundVideo";
 
- class Header extends React.Component {
+class Header extends React.Component {
   constructor(props) {
     super(props);
 
@@ -27,13 +27,15 @@ import BackgroundVideo from './BackgroundVideo'
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
   render() {
     return (
       <div>
         <Navbar light expand="md">
-
-          <NavbarBrand> <NavLink tag={Link} to="/"><img class="smaller-logo"src="/img/al.png"/>
+          <NavbarBrand>
+            {" "}
+            <NavLink tag={Link} to="/">
+              <img class="smaller-logo" src="/img/al.png" />
             </NavLink>
           </NavbarBrand>
 
@@ -41,20 +43,21 @@ import BackgroundVideo from './BackgroundVideo'
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/about"><p class="text-color">About</p>
-</NavLink>
+                <NavLink tag={Link} to="/about">
+                  <p class="text-color">About</p>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/projects"><p class="cursor text-color">Portfolio</p>
-                  </NavLink>
+                <NavLink tag={Link} to="/projects">
+                  <p class="cursor text-color">Portfolio</p>
+                </NavLink>
               </NavItem>
               <NavItem>
-
                 <NavLink href="https://github.com/austinloveless">
                   <p class="text-color">Github</p>
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav>
                   <p class="text-color">
                     More<i class="fa fa-angle-down" />
@@ -76,14 +79,13 @@ import BackgroundVideo from './BackgroundVideo'
                       </NavLink>
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>
-
       </div>
     );
   }
 }
 
-export default Header
+export default Header;
